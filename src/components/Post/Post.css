@@ -1,0 +1,38 @@
+.post{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.64);
+  border-radius: 1rem;
+  gap:1rem;
+}
+
+.post > img{
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.post > span{
+  font-size: 12px;
+  color: rgba(36, 45, 73, .65);
+}
+
+.post__reactions{
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.post__reactions > img:hover{
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+/* MEDIA QUERIES */
+/* 320 - 400px Mobile phones*/
+/* 481px -768px  Tablets/ ipads*/
+/* 769px- 1024px small screens, laptops */
+/* 1025px - 1200px desktop, large screens */
+/* 1201px - TV, Extralarge screens */
+
